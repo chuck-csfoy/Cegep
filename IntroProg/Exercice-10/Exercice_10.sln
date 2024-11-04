@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A24_S1_4372_IP_exercice-10-fonction-3-chuck-csfoy", "A24_S1_4372_IP_exercice-10-fonction-3-chuck-csfoy\A24_S1_4372_IP_exercice-10-fonction-3-chuck-csfoy.csproj", "{2F186CD4-AB39-4D44-822E-95F447EA381C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F186CD4-AB39-4D44-822E-95F447EA381C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F186CD4-AB39-4D44-822E-95F447EA381C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F186CD4-AB39-4D44-822E-95F447EA381C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F186CD4-AB39-4D44-822E-95F447EA381C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18970E31-2A16-4CFC-B278-BE57564ED421}
+	EndGlobalSection
+EndGlobal
