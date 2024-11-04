@@ -1,0 +1,18 @@
+#gagnant 
+{
+    background-color: gold;
+    background-image: url("../../medaille.png");
+    background-repeat: no-repeat;
+    background-position: centered;
+    background-position: right;
+}
+
+body {
+    width: 600px;
+}
+
+div {
+    border: 2px solid grey;
+    margin: 2px;
+    padding-left: 10px;
+}

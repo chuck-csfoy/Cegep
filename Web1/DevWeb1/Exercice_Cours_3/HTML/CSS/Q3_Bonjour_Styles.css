@@ -1,0 +1,9 @@
+h1 {
+    border-bottom : 5px solid red;
+    border-right : 5px solid red;
+    border-top: 5px solid blue;
+    border-left: 3px dashed green;
+
+    width: 120px;
+    padding: 20px;
+}

@@ -1,0 +1,99 @@
+/*J'ai suivi l'exemple sur mozilla mais j'ai pas réussi a obtenir le résultat souhaité a 100%*/
+
+header {
+    font-size: large;
+    text-align: center;
+}
+
+form {
+    /* Je centre le formulaire*/
+    margin : 0 auto;
+    width: 600px;
+    /* Delimite le contour du formulaire */
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #070707;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 10px;
+}
+
+label {
+    /* Taille et alignement uniformes */
+    display: inline-block;
+
+    width: 100px;
+    text-align: left;
+}
+
+input, textarea {
+
+    /* Les champs texte ont ajuste a la meme police. Par defaut, les zones de texte ont une police a chasse fixe */
+    font: 1em sans-serif;
+    /* Taille uniforme pour les champs */
+    width: 450px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    /*on utilise la meme bordure que pour le formulaire*/
+    border: 1px solid #0a0a0a;
+}
+
+input:focus, textarea:focus{
+    /* On ajoute une mise en avant pour les elements avec focus. */
+    border-color: #000;
+}
+
+textarea {
+    /*On aligne les textes sur plusieurs lignes avec leur libelle.*/
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    /*On fournit un peut d'espace pour saisir du texte. */
+    height: 10em;
+    /* On permet de redimensionner verticalement . */
+    resize:vertical;
+}
+
+li textarea{
+    margin-left: 100px;
+}
+
+.button {
+    /*On aligne les boutons avec les texte. */
+    padding-left: 90px; /* la meme taille que les libelles*/
+}
+
+button {
+    /* Une marge supplementaire representant approximativement le meme espace qu'entre les libelles et les champs.*/
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+input  [type=radio] {
+    
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+  
+    border: 2px solid #464242;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+fieldset {
+    border: 0;
+    padding: 0px;
+    margin-top: 60;
+}

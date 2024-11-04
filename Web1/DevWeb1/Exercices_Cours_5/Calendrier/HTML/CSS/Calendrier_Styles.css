@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    width: 90%;
+    margin: 5%;
+    border-collapse: collapse;
+}
+
+caption {
+    border: 2px solid black;
+    font-size: 3.5rem;
+}
+
+th 
+{
+    border: 2px solid black;
+    margin: 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+th.jour {
+    width: 14.33%;
+}
+
+td {
+    border: 1px solid black;
+    text-align: right;
+    vertical-align: top;
+    width: 125px;
+    height: 125px;
+}
+
+td.findesemaine
+{
+    background-color: yellow
+}
+
+p {
+    text-align: left;
+    color: blue;
+}

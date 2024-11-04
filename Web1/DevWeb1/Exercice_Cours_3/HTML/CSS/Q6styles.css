@@ -1,0 +1,16 @@
+#contenu {
+    width: 1024px;
+    margin: auto;
+    background-color: #FD0;
+  }
+  article {
+    margin-top:390px;
+    padding: 20px;
+  }
+
+  body {
+    background-image: url("../../iojoy.jpg");
+    background-image: center top;
+    background-repeat: no-repeat;
+    background-color: #FFA800;
+  }

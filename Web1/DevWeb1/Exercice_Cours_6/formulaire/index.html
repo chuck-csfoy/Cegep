@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="auteur" content="ChuckWar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/main.css" rel ="stylesheet"/>
+
+    <title>Formulaire_Go_Bleu</title>
+</head>
+<body>
+    <header>
+        <h1>Contactez-nous</h1>
+    </header>
+    <form>
+        <ul>
+            <li>
+                <label for="name">Prénom&nbsp;:</label>
+                <input type=""text id="name" name="user_name"/>
+            </li>
+            <li>
+                <label for="name">Nom&nbsp;:</label>
+                <input type="text" id="name" name="user_name"/>
+            </li>
+            <li>
+                <label for="phone">Téléphone&nbsp;:</label>
+                <input type="phone" id="phone" name="user_phone" />
+            </li>
+            <li>
+                <label for="mail">Courriel&nbsp;:</label>
+                <input type="email" id="mail" name="user_email" />
+            </li>
+            <fieldset>
+                <p>
+                    <legend>Quel est votre niveau d'expérience?</legend>
+                    <input type="radio" name="button" id="button" value="Débutant"/>
+                    <label for="button">Débutant</label>
+                </p>
+                <p>
+                    <input type="radio" name="button" id="button" value="Intermédiaire"/>
+                    <label for="button">Intermédiaire</label>
+                </p>
+                <p>
+                    <input type="radio" name="button" id="button" value="Avancé"/>
+                    <label for="button">Avancé</label>
+                </p>
+                <p>
+                    <legend>Sites que vous aimez visiter?:</legend>
+                    <input type="radio" name="button" id="button" value="Bélize"/>
+                    <label for="button">Bélize</label>
+                </p>
+                <p>
+                    <input type="radio" name="button" id="button" value="Bonaire"/>
+                    <label for="button">Bonaire</label>
+                </p>
+                <p>
+                    <input type="radio" name="button" id="button" value="Grand Turk"/>
+                    <label for="button">Grand Turk</label>
+                </p>
+            </fieldset>
+            <li>
+                <label for="msg">Commentaires&nbsp;:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+        </ul>
+        <button>Envoyer</button>
+    </form>
+    
+</body>
+</html>

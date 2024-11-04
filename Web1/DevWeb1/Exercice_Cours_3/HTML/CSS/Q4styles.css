@@ -1,0 +1,35 @@
+div {
+    border: 2px solid black;
+    margin: 2px;
+    background-Color: #DF0;
+    height: 20px;
+}
+
+#premier {
+    width: 200px;
+}
+
+#deuxieme {
+    width: 160px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+}
+
+#troisieme {
+    width: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#quatrieme {
+    width: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
