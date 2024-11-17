@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chuck\\source\\repos\\TP2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D658710A-972F-4873-B10D-443D3D698299}|TP2\\TP2.csproj|c:\\users\\chuck\\source\\repos\\tp2\\tp2\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D658710A-972F-4873-B10D-443D3D698299}|TP2\\TP2.csproj|solutionrelative:tp2\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7788B555-F055-4A45-AA00-D0C7BF6DC4E4}|TP2Tests\\TP2Tests.csproj|c:\\users\\chuck\\source\\repos\\tp2\\tp2tests\\testsgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7788B555-F055-4A45-AA00-D0C7BF6DC4E4}|TP2Tests\\TP2Tests.csproj|solutionrelative:tp2tests\\testsgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D658710A-972F-4873-B10D-443D3D698299}|TP2\\TP2.csproj|c:\\users\\chuck\\source\\repos\\tp2\\tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D658710A-972F-4873-B10D-443D3D698299}|TP2\\TP2.csproj|solutionrelative:tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chuck\\source\\repos\\TP2\\TP2\\Program.cs",
+              "RelativeDocumentMoniker": "TP2\\Program.cs",
+              "ToolTip": "C:\\Users\\chuck\\source\\repos\\TP2\\TP2\\Program.cs",
+              "RelativeToolTip": "TP2\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T16:42:29.905Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestsGame.cs",
+              "DocumentMoniker": "C:\\Users\\chuck\\source\\repos\\TP2\\TP2Tests\\TestsGame.cs",
+              "RelativeDocumentMoniker": "TP2Tests\\TestsGame.cs",
+              "ToolTip": "C:\\Users\\chuck\\source\\repos\\TP2\\TP2Tests\\TestsGame.cs",
+              "RelativeToolTip": "TP2Tests\\TestsGame.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAgwAgBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:24:15.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\chuck\\source\\repos\\TP2\\TP2\\Game.cs",
+              "RelativeDocumentMoniker": "TP2\\Game.cs",
+              "ToolTip": "C:\\Users\\chuck\\source\\repos\\TP2\\TP2\\Game.cs*",
+              "RelativeToolTip": "TP2\\Game.cs*",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAwwMEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T13:59:06.653Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
