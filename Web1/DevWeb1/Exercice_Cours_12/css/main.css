@@ -1,0 +1,59 @@
+header,
+main {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.boite.titre {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    border: gray solid 1px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px darkgray;
+}
+
+.titre h1 {
+    margin-top: 0;
+}
+
+.titre p {
+    margin-bottom: 0;
+}
+
+.pair,
+.impair {
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+.pair {
+    background-color: red;
+}
+
+.impair {
+    background-color: green;
+}
+
+#div_question2,
+#div_question3 {
+    background-color: #888;
+    width: 300px;
+    height: 300px;
+}
+
+.participant {
+    width: 600px;
+    border: 2px solid grey;
+    margin: 2px;
+    padding-left: 10px;
+}
+
+.gagnant {
+    background: gold url(../img/medaille.png) no-repeat right center;
+}

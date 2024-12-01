@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmation Web I - Cours 13</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="boite titre">
+            <h1>Programmation Web I</h1>
+            <p>Exercices - Cours 13</p>
+            <hr>
+            <p>Pour tous les exercices, vous devez arriver à vos fins en modifiant <strong>uniquement</strong> 
+            le fichier <code>main.js</code>.</p>
+            <p>N'utilisez pas <code>innerHTML</code> à moins d'être explicitement demandé.</p>
+        </div>
+    </header>
+    <main>
+        <!-- code de l'étape 1 -->
+        <h2>Démonstration textContent</h2>
+        <p class="instructions">
+            À l'aide de la propriété <code>textContent</code>, on souhaite qu’au survol de la souris, 
+            « J’aime PHP! » devient « Non, plutôt JavaScript! ». À la sortie de la souris, 
+            le texte redevient « J’aime PHP! »
+        </p>
+        <p id="texte_etape_1">J’aime PHP!</p>
+
+        <!-- code de l'étape 2 -->
+        <h2>Vérification de l’âge</h2>
+        <p class="instructions">
+            À partir du code ci-dessous, on veut faire une application afin d’informer l’utilisateur 
+            s’il est mineur ou majeur. Lorsqu’on clique sur le bouton vous devez faire en sorte d’aller 
+            chercher la valeur du champ de texte et d’indiquer un message dans le paragraphe informant 
+            si l’âge entré est mineur ou majeur. Vous devrez utiliser la syntaxe <code>ELEMENT.value</code> pour
+            obtenir la valeur d'un élément de formulaire.
+        </p>
+        <form id="formulaire_age">
+            Âge : <input type="text" id="texte_age">
+            <input type="button" id="bouton_age" value="Vérifier">
+        </form>
+        <p id="resultat_age"></p>
+
+        <!-- code de l'étape 3 -->
+        <h2>Podomètre</h2>
+        <p class="instructions">
+            On souhaite réaliser une application de podomètre (compteur de pas). Implémentez les fonctionnalités
+            pour chaque clique de bouton. Faites-en sorte que le compteur ne peut pas être négatif.
+        </p>
+        <h3 id="compteur">0</h3>
+        <button id="bouton_incrementer">Incrémenter</button>
+        <button id="bouton_decrementer">Décrémenter</button>
+        <button id="bouton_raz">Remize à zéro</button>
+
+        <!-- code de l'étape 4 -->
+        <h2>Tic-Tac-Toe</h2>
+        <p class="instructions">
+            Exercice avancé (facultatif) : réalisez le jeu de tic-tac-toe. Chaque joueur doit cliquer à tour de rôle.
+            Si on essaie de jouer sur une case qui est déjà occupée, on doit l'empêcher et afficher un message
+            informant le joueur de jouer à un autre endroit. Quand la partie est terminée, affichez un message indiquant 
+            qui a gagné ou si la partie est nulle. Cliquer sur le jeu à ce moment n'a plus aucun effet.
+        </p>
+        <div>
+            <div class="rangee rangee-1">
+                <div class="cellule" id="cellule-1">&nbsp;</div>
+                <div class="cellule" id="cellule-2">&nbsp;</div>
+                <div class="cellule" id="cellule-3">&nbsp;</div>
+            </div>
+            <div class="rangee rangee-2">
+                <div class="cellule" id="cellule-4">&nbsp;</div>
+                <div class="cellule" id="cellule-5">&nbsp;</div>
+                <div class="cellule" id="cellule-6">&nbsp;</div>
+            </div>
+            <div class="rangee rangee-3">
+                <div class="cellule" id="cellule-7">&nbsp;</div>
+                <div class="cellule" id="cellule-8">&nbsp;</div>
+                <div class="cellule" id="cellule-9">&nbsp;</div>
+            </div>
+        </div>
+        <p id="message_jeu"></p>
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+
+</html>
