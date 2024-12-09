@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="ChuckWar">
+  <title>Formulaire de party de Noël</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid offset-4">
+    <form action="https://progweb1-validation-formulaire-e4hae7gedrdvbbaq.canadacentral-01.azurewebsites.net/"
+      id="formulaireInscription" class="formulaireInscription row container-fluid" method="post">
+      <fieldset>
+        <legend>Formulaire de party de Noël</legend>
+
+        <div class="row">
+          <div class="col-2">
+            <label for="nomEmploye" class="form-label">
+              Nom de l'employé&nbsp;<span class="text-danger"> *</span></label>
+          </div>
+          <div class="col-md-4">
+            <input type="text" name="nomEmploye" id="nomEmploye" class="form-control" placeholder="Employé(e) Modèle"
+              required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <label class="form-label">
+              Serez-vous présent?<span class="text-danger"> *</span></label>
+          </div>
+          <div class="col-md-4">
+            <div class="radio">
+              <label for="oui" class="form-check-label">
+                <input class="form-check-input" type="radio" id="oui" name="presenceEmploye" value="oui" required> Oui
+              </label>
+            </div>
+            <div class="radio">
+              <label for="non" class="form-check-label">
+                <input class="form-check-input" type="radio" id="non" name="presenceEmploye" value="non" required> Non
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="d-none col-2" id="choixRepasEmploye1">
+            <label class="form-label">
+              Choix du repas employé:<span class="text-danger"> *</span></label>
+          </div>
+
+          <div class="d-none col-md-4" id="choixRepasEmploye2">
+            <div class="radio">
+              <label for="pouletAnanas-employe" class="form-check-label">
+                <input class="form-check-input" type="radio" id="pouletAnanas-employe" name="choixRepasEmploye"
+                  value="pouletAnanas"> Poulet aux ananas
+              </label>
+            </div>
+            <div class="radio">
+              <label for="boeufBraise-employe" class="form-check-label">
+                <input class="form-check-input" type="radio" id="boeufBraise-employe" name="choixRepasEmploye"
+                  value="boeufBraise"> Boeuf braisé
+              </label>
+            </div>
+            <div class="radio">
+              <label for="tourtiere-employe" class="form-check-label">
+                <input class="form-check-input" type="radio" id="tourtiere-employe" name="choixRepasEmploye"
+                  value="tourtiere"> Tourtière végane
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="d-none col-2" id="seraAccompagne1">
+            <label class="form-label">
+              Allez vous être accompagé?<span class="text-danger"> *</span></label>
+          </div>
+          <div class="d-none col-md-4" id="seraAccompagne2">
+            <div class="radio">
+              <label for="ouiAccompagne" class="form-check-label">
+                <input class="form-check-input" type="radio" name="seraAccompagne" id="ouiAccompagne" value="oui"> Oui
+              </label>
+            </div>
+            <div class="radio">
+              <label for="nonAccompagne" class="form-check-label">
+                <input class="form-check-input" type="radio" name="seraAccompagne" id="nonAccompagne" value="non"> Non
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="d-none col-2" id="nomAccompagnateur1">
+            <label for="nomInvite" class="form-label">
+              Nom de votre invité(e)&nbsp;<span class="text-danger"> *</span></label>
+          </div>
+          <div class="d-none col-md-4" id="nomAccompagnateur2">
+            <input type="text" name="nomInvite" id="nomInvite" class="form-control" placeholder="Ton ou ta preferé(e)">
+          </div>
+        </div>
+        <div class="row">
+          <div class="d-none col-2" id="choixRepasInvite1">
+            <label class="form-label">
+              Choix du repas de votre invité(e):<span class="text-danger"> *</span></label>
+          </div>
+          <div class="d-none col-md-4" id="choixRepasInvite2">
+            <div class="radio">
+              <label for="pouletAnanas-invite" class="form-check-label">
+                <input class="form-check-input" type="radio" id="pouletAnanas-invite" name="choixRepasInvite"
+                  value="pouletAnanas"> Poulet aux ananas
+              </label>
+            </div>
+            <div class="radio">
+              <label for="boeufBraise-invite" class="form-check-label">
+                <input class="form-check-input" type="radio" id="boeufBraise-invite" name="choixRepasInvite"
+                  value="boeufBraise"> Boeuf braisé
+              </label>
+            </div>
+            <div class="radio">
+              <label for="tourtiere-invite" class="form-check-label">
+                <input class="form-check-input" type="radio" id="tourtiere-invite" name="choixRepasInvite"
+                  value="tourtiere"> Tourtière végane
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="d-none col-2" id="checkbox1">
+            <label class="form-label">
+              Veuillez cocher deux activités:<span class="text-danger"> *</span></label>
+          </div>
+          <div class="d-none col-md-4" id="checkbox2">
+            <div class="form-check">
+              <label for="traineau" class="form-check-label">
+                <input class="form-check-input" type="checkbox" id="traineau" value="traineau" name="traineau">
+                Traîneaux à chien
+              </label>
+            </div>
+            <div class="form-check">
+              <label for="noelDisco" class="form-check-label">
+                <input class="form-check-input" type="checkbox" id="noelDisco" value="noelDisco" name="noelDisco"> Noël
+                disco
+              </label>
+            </div>
+            <div class="form-check">
+              <label for="karaoke" class="form-check-label">
+                <input class="form-check-input" type="checkbox" id="karaoke" value="karaoke" name="karaoke"> Karaoké
+              </label>
+            </div>
+            <div class="form-check">
+              <label for="glissades" class="form-check-label">
+                <input class="form-check-input" type="checkbox" id="glissades" value="glissades" name="glissades">
+                Glissades
+              </label>
+            </div>
+            <div class="form-check">
+              <label for="laserTag" class="form-check-label">
+                <input class="form-check-input" type="checkbox" id="laserTag" value="laserTag" name="laserTag"> Laser
+                tag
+              </label>
+            </div>
+            <div class="form-check">
+              <label for="casino" class="form-check-label">
+                <input class="form-check-input" type="checkbox" id="casino" value="casino" name="casino"> Casino
+              </label>
+            </div>
+          </div>
+        </div>  
+      </fieldset>
+      <div class="alert alert-danger d-none col-md-4 offset-md-3" id="messageErreur"></div>
+      <div class="row">
+        <div class="col-md-4">
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
