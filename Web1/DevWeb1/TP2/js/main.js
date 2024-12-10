@@ -1,7 +1,7 @@
-const formulaireInscription = document.getElementById("formulaireInscription");
+const xmasPartyForm = document.getElementById("formulaireInscription");
 
-const presenceEmployeOui = document.getElementById("oui")
-const presenceEmployeNon = document.getElementById("non")
+const EmployeeAttendanceYes = document.getElementById("oui")
+const EmployeeAttendanceNo = document.getElementById("non")
 const choixRepasEmploye1 = document.getElementById("choixRepasEmploye1");
 const choixRepasEmploye2 = document.getElementById("choixRepasEmploye2");
 const seraAccompagne1 = document.getElementById("seraAccompagne1");
@@ -24,9 +24,11 @@ const casino = document.getElementById("casino");
 
 const messageErreur = document.getElementById("messageErreur");
 
-formulaireInscription.onsubmit = ValiderFormulaire;
 
-function ValiderVisibilite(element, isVisible)
+
+xmasPartyForm.onsubmit = ValidateMainForm;
+
+function ToggleElementVisibility(element, isVisible)
 {
     if (!isVisible)
     {
@@ -38,45 +40,77 @@ function ValiderVisibilite(element, isVisible)
     }
 }
 
-presenceEmployeOui.addEventListener('click', ValiderPresenceEmploye);
-presenceEmployeNon.addEventListener('click', ValiderPresenceEmploye);
-
-function ValiderPresenceEmploye()
+function ToggleElementRequired(element, isRequired)
 {
-    if (presenceEmployeOui.checked)
+    if (!isRequired)
     {
-        ValiderVisibilite(choixRepasEmploye1, true);
-        ValiderVisibilite(choixRepasEmploye2, true);
-        ValiderVisibilite(seraAccompagne1, true);
-        ValiderVisibilite(seraAccompagne2, true);
-        ValiderVisibilite(checkbox1, true);
-        ValiderVisibilite(checkbox2, true);
+        element.removeAttribute('required');
+    }
+    else
+    {
+        element.setAttribute('required', true);
+    }
+}
+
+EmployeeAttendanceYes.addEventListener('click', ValidateEmployeeAttendance);
+EmployeeAttendanceNo.addEventListener('click', ValidateEmployeeAttendance);
+const pouletAnanasEmployee = document.getElementById("pouletAnanas-employe");
+const boeufBraiseEmployee = document.getElementById("boeufBraise-employe");
+const tourtiereEmployee = document.getElementById("tourtiere-employe");
+
+const guestYes = document.getElementById("ouiAccompagne");
+const guestNo = document.getElementById("nonAccompagne");
+
+
+
+function ValidateEmployeeAttendance()
+{
+    if (EmployeeAttendanceYes.checked)
+    {
+        ToggleElementRequired(pouletAnanasEmployee, true);
+        ToggleElementRequired(boeufBraiseEmployee, true);
+        ToggleElementRequired(tourtiereEmployee, true);
+        ToggleElementRequired(guestYes, true);
+        ToggleElementRequired(guestNo, true);
+
+        ToggleElementVisibility(choixRepasEmploye1, true);
+        ToggleElementVisibility(choixRepasEmploye2, true);
+        ToggleElementVisibility(seraAccompagne1, true);
+        ToggleElementVisibility(seraAccompagne2, true);
+        ToggleElementVisibility(checkbox1, true);
+        ToggleElementVisibility(checkbox2, true);
         return true;
     }
-    else if (presenceEmployeNon.checked)
+    else if (EmployeeAttendanceNo.checked)
     {
-        ValiderVisibilite(choixRepasEmploye1, false);
-        ValiderVisibilite(choixRepasEmploye2, false);
-        ValiderVisibilite(seraAccompagne1, false);
-        ValiderVisibilite(seraAccompagne2, false);
-        ValiderVisibilite(checkbox1, false);
-        ValiderVisibilite(checkbox2, false);
-        ValiderVisibilite(nomAccompagnateur1, false);
-        ValiderVisibilite(nomAccompagnateur2, false);
-        ValiderVisibilite(choixRepasInvite1, false);
-        ValiderVisibilite(choixRepasInvite2, false);
+        ToggleElementRequired(pouletAnanasEmployee, false);
+        ToggleElementRequired(boeufBraiseEmployee, false);
+        ToggleElementRequired(tourtiereEmployee, false);
+        ToggleElementRequired(guestYes, false);
+        ToggleElementRequired(guestNo, false);
+
+        ToggleElementVisibility(choixRepasEmploye1, false);
+        ToggleElementVisibility(choixRepasEmploye2, false);
+        ToggleElementVisibility(seraAccompagne1, false);
+        ToggleElementVisibility(seraAccompagne2, false);
+        ToggleElementVisibility(checkbox1, false);
+        ToggleElementVisibility(checkbox2, false);
+        ToggleElementVisibility(nomAccompagnateur1, false);
+        ToggleElementVisibility(nomAccompagnateur2, false);
+        ToggleElementVisibility(choixRepasInvite1, false);
+        ToggleElementVisibility(choixRepasInvite2, false);
         return true;
     }
     else
     {
-        messageErreur.textContent = 'Vous devez confirmer votre présence!';
+        //messageErreur.textContent = 'Vous devez confirmer votre présence!';
         return false;
     }
 }
 
-choixRepasEmploye2.addEventListener("click", ValiderChoixRepasEmploye);
+choixRepasEmploye2.addEventListener("click", ValidateEmployeeMealChoice);
 
-function ValiderChoixRepasEmploye()
+function ValidateEmployeeMealChoice()
 {
     if (choixRepasEmploye2.querySelector("input:checked"))
     {
@@ -84,44 +118,60 @@ function ValiderChoixRepasEmploye()
     } 
     else 
     {
-        messageErreur.textContent = "Veuillez sélectionner votre repas employé.";
+        //messageErreur.textContent += "Veuillez sélectionner votre repas employé.";
         return false;
     }
 }
 
-ouiAccompagne.addEventListener('click', ValiderPrensenceSiSeraAccompagne);
-nonAccompagne.addEventListener('click', ValiderPrensenceSiSeraAccompagne);
+ouiAccompagne.addEventListener('click', ValidateGuestAttendance);
+nonAccompagne.addEventListener('click', ValidateGuestAttendance);
 
-function ValiderPrensenceSiSeraAccompagne()
+const guestName = document.getElementById("nomInvite");
+
+const pouletAnanasGuest = document.getElementById("pouletAnanas-invite");
+const boeufBraiseGuest = document.getElementById("boeufBraise-invite");
+const tourtiereGuest = document.getElementById("tourtiere-invite");
+
+function ValidateGuestAttendance()
 {
     if (ouiAccompagne.checked)
     {
-        ValiderVisibilite(nomAccompagnateur1, true);
-        ValiderVisibilite(nomAccompagnateur2, true);
-        ValiderVisibilite(choixRepasInvite1, true);
-        ValiderVisibilite(choixRepasInvite2, true);
+        ToggleElementRequired(guestName, true);
+        ToggleElementRequired(pouletAnanasGuest, true);
+        ToggleElementRequired(boeufBraiseGuest, true);
+        ToggleElementRequired(tourtiereGuest, true);
+
+        ToggleElementVisibility(nomAccompagnateur1, true);
+        ToggleElementVisibility(nomAccompagnateur2, true);
+        ToggleElementVisibility(choixRepasInvite1, true);
+        ToggleElementVisibility(choixRepasInvite2, true);
         return true;
     }
     else if (nonAccompagne.checked)
     {
-        ValiderVisibilite(nomAccompagnateur1, false);
-        ValiderVisibilite(nomAccompagnateur2, false);
-        ValiderVisibilite(choixRepasInvite1, false);
-        ValiderVisibilite(choixRepasInvite2, false);
+        ToggleElementRequired(guestName, false);
+        ToggleElementRequired(pouletAnanasGuest, false);
+        ToggleElementRequired(boeufBraiseGuest, false);
+        ToggleElementRequired(tourtiereGuest, false);
+
+        ToggleElementVisibility(nomAccompagnateur1, false);
+        ToggleElementVisibility(nomAccompagnateur2, false);
+        ToggleElementVisibility(choixRepasInvite1, false);
+        ToggleElementVisibility(choixRepasInvite2, false);
         return true;
     }
     else
     {
-        messageErreur.textContent = 'Veuillez confirmer si vous serez accompagné(e)!';
+        //messageErreur.textContent += 'Veuillez confirmer si vous serez accompagné(e)! ';
         return false;
     }
 }
 
-function ValiderNominvite()
+function ValidateGuestName()
 {
     if (nomAccompagnateur2.value === null) 
     {
-        messageErreur.textContent = "Veuillez entrer le nom de votre invité(e).";
+        //messageErreur.textContent += "Veuillez entrer le nom de votre invité(e). ";
         return false;
     }
     else
@@ -130,9 +180,9 @@ function ValiderNominvite()
     }
 }
 
-choixRepasInvite2.addEventListener('click', ValiderChoixRepasInvite);
+choixRepasInvite2.addEventListener('click', ValidateGuestMealChoice);
 
-function ValiderChoixRepasInvite()
+function ValidateGuestMealChoice()
 {
     if (choixRepasInvite2.querySelector("input:checked"))
     {   
@@ -140,12 +190,12 @@ function ValiderChoixRepasInvite()
     }
     else
     {
-        messageErreur.textContent = "Veuillez sélectionner un repas de votre invité(e).";
+        //messageErreur.textContent += "Veuillez sélectionner un repas de votre invité(e). ";
         return false;
     }
 }
 
-function ValiderCheckbox()
+function ValidateActivityChoice()
 {
     let cptChecked = 0;
     
@@ -180,50 +230,50 @@ function ValiderCheckbox()
     }
     else
     {
-        messageErreur.textContent += "Veuillez cocher deux choix d'activités!"
+        messageErreur.textContent += "Veuillez cocher deux choix d'activités! ";
         return false;
     }
 }
 
-function ValiderFormulaire(evenement) 
+function ValidateMainForm(evenement) 
 {
-    let nbChampsInvalides = 0;
+    let nbInvalidFields = 0;
     
     messageErreur.textContent = "";
 
-    if (presenceEmployeNon.checked)
+    if (EmployeeAttendanceNo.checked)
     {
         messageErreur.classList.add('d-none');
         return true;
     }
-    else if (presenceEmployeOui.checked)
+    else if (EmployeeAttendanceYes.checked)
     {
-        if(!ValiderChoixRepasEmploye())
+        if(!ValidateEmployeeMealChoice())
         {
-            ++nbChampsInvalides;
+            ++nbInvalidFields;
         }
         
-        if (!ValiderPrensenceSiSeraAccompagne())
+        if (!ValidateGuestAttendance())
         {
-            ++nbChampsInvalides;
+            ++nbInvalidFields;
         }
 
-        if (ouiAccompagne.checked && !ValiderNominvite())
+        if (ouiAccompagne.checked && !ValidateGuestName())
         {
-            ++nbChampsInvalides;
+            ++nbInvalidFields;
         }
 
-        if(ouiAccompagne.checked && !ValiderChoixRepasInvite())
+        if(ouiAccompagne.checked && !ValidateGuestMealChoice())
         {
-            ++nbChampsInvalides;
+            ++nbInvalidFields;
         }
 
-        if (!ValiderCheckbox()) 
+        if (!ValidateActivityChoice())
         {
-            ++nbChampsInvalides;
+            ++nbInvalidFields;
         }
         
-        if (nbChampsInvalides > 0) 
+        if (nbInvalidFields > 0)
         {
             messageErreur.classList.remove('d-none');
             evenement.preventDefault();
@@ -232,7 +282,7 @@ function ValiderFormulaire(evenement)
         else 
         {
             messageErreur.classList.add('d-none');
-            formulaireInscription.submit()
+            xmasPartyForm.submit()
             alert('Formulaire envoyé');
         }
     }
