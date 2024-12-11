@@ -1,8 +1,12 @@
 const inputfield = document.getElementById("user_InputField");
 const button_submit = document.getElementById("button_submit");
+const button_playAgain = document.getElementById("button_playAgain");
 const errorMessage = document.getElementById("Error_message");
 const cheeringUp = document.getElementById("cheering_up");
 const userPrompt = document.getElementById("user_prompt");
+
+button_submit.addEventListener("click", Main);
+button_playAgain.addEventListener("click", playAgain);
 
 const MIN = 1;
 const MAX = 100;
@@ -17,7 +21,11 @@ function StartNewGame()
 
     inputfield.value = "";
     cheeringUp.textContent = "";
+
     errorMessage.classList.add("d-none");
+    button_submit.classList.remove('d-none');
+    inputfield.classList.remove('d-none');
+    button_playAgain.classList.add('d-none');
    
     userPrompt.textContent = `Choisissez un nombre entre ${MIN} et ${MAX}.`;
 
@@ -61,20 +69,28 @@ function ManageUserInput()
             
             if (userInput < randomNumber)
             {
-                cheeringUp.textContent = `Miser plus haut que votre dernier mise ${userInput}!`;
+                cheeringUp.textContent = `Vous devez chercher plus haut que ${userInput}!`;
                 
             }
             else
             {
-                cheeringUp.textContent = `Miser plus bas que votre dernier mise ${userInput}!`;
+                cheeringUp.textContent = `Vous devez chercher plus bas que  ${userInput}!`;
             }
         }
 
         if (isGameOver)
         {
-            userPrompt.textContent = "La partie est terminée! Clickez sur soummettre pour lancer une nouvelle partie!";
+            userPrompt.textContent = "La partie est terminée! Clickez sur rejouer pour lancer une nouvelle partie!";
+            button_submit.classList.add('d-none');
+            inputfield.classList.add('d-none');
+            button_playAgain.classList.remove('d-none');
         }
     }
+}
+
+function playAgain()
+{
+   StartNewGame();
 }
 
 function Main()
@@ -89,4 +105,3 @@ function Main()
     }
 }
 Main();
-button_submit.addEventListener("click", Main);
