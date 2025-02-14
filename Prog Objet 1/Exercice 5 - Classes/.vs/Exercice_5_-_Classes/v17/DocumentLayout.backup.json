@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chuck\\source\\Prog Objet 1\\Exercice_5_-_Classes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE38EA7-E02E-44FD-A8A7-79AC75D79A36}|TestBankAccount\\TestsExcercice5.csproj|c:\\users\\chuck\\source\\prog objet 1\\exercice_5_-_classes\\testbankaccount\\bankaccounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE38EA7-E02E-44FD-A8A7-79AC75D79A36}|TestBankAccount\\TestsExcercice5.csproj|solutionrelative:testbankaccount\\bankaccounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F02A698-F733-4047-BE73-2FA700547843}|Exercice_5_-_Classes\\Exercice_5_-_Classes.csproj|c:\\users\\chuck\\source\\prog objet 1\\exercice_5_-_classes\\exercice_5_-_classes\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F02A698-F733-4047-BE73-2FA700547843}|Exercice_5_-_Classes\\Exercice_5_-_Classes.csproj|solutionrelative:exercice_5_-_classes\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankAccountTests.cs",
+              "DocumentMoniker": "C:\\Users\\chuck\\source\\Prog Objet 1\\Exercice_5_-_Classes\\TestBankAccount\\BankAccountTests.cs",
+              "RelativeDocumentMoniker": "TestBankAccount\\BankAccountTests.cs",
+              "ToolTip": "C:\\Users\\chuck\\source\\Prog Objet 1\\Exercice_5_-_Classes\\TestBankAccount\\BankAccountTests.cs",
+              "RelativeToolTip": "TestBankAccount\\BankAccountTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T00:06:35.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\chuck\\source\\Prog Objet 1\\Exercice_5_-_Classes\\Exercice_5_-_Classes\\BankAccount.cs",
+              "RelativeDocumentMoniker": "Exercice_5_-_Classes\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\chuck\\source\\Prog Objet 1\\Exercice_5_-_Classes\\Exercice_5_-_Classes\\BankAccount.cs",
+              "RelativeToolTip": "Exercice_5_-_Classes\\BankAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T23:56:07.597Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

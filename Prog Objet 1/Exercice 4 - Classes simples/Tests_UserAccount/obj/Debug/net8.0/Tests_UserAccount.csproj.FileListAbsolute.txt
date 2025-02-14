@@ -1,0 +1,6 @@
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Tests_UserAccount\bin\Debug\net8.0\CoverletSourceRootsMapping_Tests_UserAccount
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Tests_UserAccount\obj\Debug\net8.0\Tests_UserAccount.csproj.AssemblyReference.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Tests_UserAccount\obj\Debug\net8.0\Tests_UserAccount.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Tests_UserAccount\obj\Debug\net8.0\Tests_UserAccount.AssemblyInfoInputs.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Tests_UserAccount\obj\Debug\net8.0\Tests_UserAccount.AssemblyInfo.cs
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Tests_UserAccount\obj\Debug\net8.0\Tests_UserAccount.csproj.CoreCompileInputs.cache

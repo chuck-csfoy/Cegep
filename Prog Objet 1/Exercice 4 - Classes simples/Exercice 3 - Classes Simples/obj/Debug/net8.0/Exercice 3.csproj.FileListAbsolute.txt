@@ -1,0 +1,14 @@
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\bin\Debug\net8.0\Exercice 3.exe
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\bin\Debug\net8.0\Exercice 3.deps.json
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\bin\Debug\net8.0\Exercice 3.runtimeconfig.json
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\bin\Debug\net8.0\Exercice 3.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\bin\Debug\net8.0\Exercice 3.pdb
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\obj\Debug\net8.0\Exercice 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\obj\Debug\net8.0\Exercice 3.AssemblyInfoInputs.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\obj\Debug\net8.0\Exercice 3.AssemblyInfo.cs
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\obj\Debug\net8.0\Exercice 3.csproj.CoreCompileInputs.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\obj\Debug\net8.0\Exercice 3.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\obj\Debug\net8.0\refint\Exercice 3.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\obj\Debug\net8.0\Exercice 3.pdb
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\obj\Debug\net8.0\Exercice 3.genruntimeconfig.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice 4 - Classes simples\Exercice 3 - Classes Simples\obj\Debug\net8.0\ref\Exercice 3.dll

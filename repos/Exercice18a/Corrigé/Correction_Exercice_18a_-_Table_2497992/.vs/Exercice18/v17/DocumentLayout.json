@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chuck\\source\\repos\\Exercice18a\\Corrig\u00E9\\Correction_Exercice_18a_-_Table_2497992\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3723CAB-0B12-4BB9-84F1-BB5135D07CF5}|Exercice18\\Exercice18.csproj|c:\\users\\chuck\\source\\repos\\exercice18a\\corrig\u00E9\\correction_exercice_18a_-_table_2497992\\exercice18\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3723CAB-0B12-4BB9-84F1-BB5135D07CF5}|Exercice18\\Exercice18.csproj|solutionrelative:exercice18\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27AE778A-30D8-4FB6-8160-857CEB092A9E}|Exercice18Tests\\Exercice18Tests.csproj|c:\\users\\chuck\\source\\repos\\exercice18a\\corrig\u00E9\\correction_exercice_18a_-_table_2497992\\exercice18tests\\librarytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27AE778A-30D8-4FB6-8160-857CEB092A9E}|Exercice18Tests\\Exercice18Tests.csproj|solutionrelative:exercice18tests\\librarytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Library.cs",
+              "DocumentMoniker": "C:\\Users\\chuck\\source\\repos\\Exercice18a\\Corrig\u00E9\\Correction_Exercice_18a_-_Table_2497992\\Exercice18\\Library.cs",
+              "RelativeDocumentMoniker": "Exercice18\\Library.cs",
+              "ToolTip": "C:\\Users\\chuck\\source\\repos\\Exercice18a\\Corrig\u00E9\\Correction_Exercice_18a_-_Table_2497992\\Exercice18\\Library.cs",
+              "RelativeToolTip": "Exercice18\\Library.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwE0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:44:55.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibraryTests.cs",
+              "DocumentMoniker": "C:\\Users\\chuck\\source\\repos\\Exercice18a\\Corrig\u00E9\\Correction_Exercice_18a_-_Table_2497992\\Exercice18Tests\\LibraryTests.cs",
+              "RelativeDocumentMoniker": "Exercice18Tests\\LibraryTests.cs",
+              "ToolTip": "C:\\Users\\chuck\\source\\repos\\Exercice18a\\Corrig\u00E9\\Correction_Exercice_18a_-_Table_2497992\\Exercice18Tests\\LibraryTests.cs",
+              "RelativeToolTip": "Exercice18Tests\\LibraryTests.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAM8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:22:47.465Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

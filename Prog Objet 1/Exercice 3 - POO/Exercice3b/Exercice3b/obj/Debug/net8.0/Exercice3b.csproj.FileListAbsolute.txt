@@ -1,0 +1,14 @@
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\bin\Debug\net8.0\Exercice3b.exe
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\bin\Debug\net8.0\Exercice3b.deps.json
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\bin\Debug\net8.0\Exercice3b.runtimeconfig.json
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\bin\Debug\net8.0\Exercice3b.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\bin\Debug\net8.0\Exercice3b.pdb
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\obj\Debug\net8.0\Exercice3b.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\obj\Debug\net8.0\Exercice3b.AssemblyInfoInputs.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\obj\Debug\net8.0\Exercice3b.AssemblyInfo.cs
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\obj\Debug\net8.0\Exercice3b.csproj.CoreCompileInputs.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\obj\Debug\net8.0\Exercice3b.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\obj\Debug\net8.0\refint\Exercice3b.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\obj\Debug\net8.0\Exercice3b.pdb
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\obj\Debug\net8.0\Exercice3b.genruntimeconfig.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice 3 - POO\Exercice3b\Exercice3b\obj\Debug\net8.0\ref\Exercice3b.dll

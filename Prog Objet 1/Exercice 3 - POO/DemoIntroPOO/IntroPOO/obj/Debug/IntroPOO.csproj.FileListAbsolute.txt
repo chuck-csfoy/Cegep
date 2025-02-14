@@ -1,0 +1,14 @@
+C:\Users\kfiliatreault\Documents\Visual Studio 2017\Projects\IntroPOO\IntroPOO\bin\Debug\IntroPOO.exe.config
+C:\Users\kfiliatreault\Documents\Visual Studio 2017\Projects\IntroPOO\IntroPOO\bin\Debug\IntroPOO.exe
+C:\Users\kfiliatreault\Documents\Visual Studio 2017\Projects\IntroPOO\IntroPOO\bin\Debug\IntroPOO.pdb
+C:\Users\kfiliatreault\Documents\Visual Studio 2017\Projects\IntroPOO\IntroPOO\obj\Debug\IntroPOO.csprojResolveAssemblyReference.cache
+C:\Users\kfiliatreault\Documents\Visual Studio 2017\Projects\IntroPOO\IntroPOO\obj\Debug\IntroPOO.csproj.CoreCompileInputs.cache
+C:\Users\kfiliatreault\Documents\Visual Studio 2017\Projects\IntroPOO\IntroPOO\obj\Debug\IntroPOO.exe
+C:\Users\kfiliatreault\Documents\Visual Studio 2017\Projects\IntroPOO\IntroPOO\obj\Debug\IntroPOO.pdb
+C:\Users\chuck\OneDrive\Documents\Cegep Sainte-Foy\420-B9_Techniques de l'informatique\Session Hiv_2025\2_Programmation Objet I\Notes de cours\DemoIntroPOO\DemoIntroPOO\IntroPOO\bin\Debug\IntroPOO.exe.config
+C:\Users\chuck\OneDrive\Documents\Cegep Sainte-Foy\420-B9_Techniques de l'informatique\Session Hiv_2025\2_Programmation Objet I\Notes de cours\DemoIntroPOO\DemoIntroPOO\IntroPOO\bin\Debug\IntroPOO.exe
+C:\Users\chuck\OneDrive\Documents\Cegep Sainte-Foy\420-B9_Techniques de l'informatique\Session Hiv_2025\2_Programmation Objet I\Notes de cours\DemoIntroPOO\DemoIntroPOO\IntroPOO\bin\Debug\IntroPOO.pdb
+C:\Users\chuck\OneDrive\Documents\Cegep Sainte-Foy\420-B9_Techniques de l'informatique\Session Hiv_2025\2_Programmation Objet I\Notes de cours\DemoIntroPOO\DemoIntroPOO\IntroPOO\obj\Debug\IntroPOO.csproj.AssemblyReference.cache
+C:\Users\chuck\OneDrive\Documents\Cegep Sainte-Foy\420-B9_Techniques de l'informatique\Session Hiv_2025\2_Programmation Objet I\Notes de cours\DemoIntroPOO\DemoIntroPOO\IntroPOO\obj\Debug\IntroPOO.csproj.CoreCompileInputs.cache
+C:\Users\chuck\OneDrive\Documents\Cegep Sainte-Foy\420-B9_Techniques de l'informatique\Session Hiv_2025\2_Programmation Objet I\Notes de cours\DemoIntroPOO\DemoIntroPOO\IntroPOO\obj\Debug\IntroPOO.exe
+C:\Users\chuck\OneDrive\Documents\Cegep Sainte-Foy\420-B9_Techniques de l'informatique\Session Hiv_2025\2_Programmation Objet I\Notes de cours\DemoIntroPOO\DemoIntroPOO\IntroPOO\obj\Debug\IntroPOO.pdb

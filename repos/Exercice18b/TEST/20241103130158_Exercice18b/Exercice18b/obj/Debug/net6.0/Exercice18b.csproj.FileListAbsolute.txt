@@ -1,0 +1,11 @@
+C:\Users\chuck\source\repos\Exercice18b\TEST\20241103130158_Exercice18b\Exercice18b\bin\Debug\net6.0\Exercice18b.deps.json
+C:\Users\chuck\source\repos\Exercice18b\TEST\20241103130158_Exercice18b\Exercice18b\bin\Debug\net6.0\Exercice18b.dll
+C:\Users\chuck\source\repos\Exercice18b\TEST\20241103130158_Exercice18b\Exercice18b\bin\Debug\net6.0\Exercice18b.pdb
+C:\Users\chuck\source\repos\Exercice18b\TEST\20241103130158_Exercice18b\Exercice18b\obj\Debug\net6.0\Exercice18b.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chuck\source\repos\Exercice18b\TEST\20241103130158_Exercice18b\Exercice18b\obj\Debug\net6.0\Exercice18b.AssemblyInfoInputs.cache
+C:\Users\chuck\source\repos\Exercice18b\TEST\20241103130158_Exercice18b\Exercice18b\obj\Debug\net6.0\Exercice18b.AssemblyInfo.cs
+C:\Users\chuck\source\repos\Exercice18b\TEST\20241103130158_Exercice18b\Exercice18b\obj\Debug\net6.0\Exercice18b.csproj.CoreCompileInputs.cache
+C:\Users\chuck\source\repos\Exercice18b\TEST\20241103130158_Exercice18b\Exercice18b\obj\Debug\net6.0\Exercice18b.dll
+C:\Users\chuck\source\repos\Exercice18b\TEST\20241103130158_Exercice18b\Exercice18b\obj\Debug\net6.0\refint\Exercice18b.dll
+C:\Users\chuck\source\repos\Exercice18b\TEST\20241103130158_Exercice18b\Exercice18b\obj\Debug\net6.0\Exercice18b.pdb
+C:\Users\chuck\source\repos\Exercice18b\TEST\20241103130158_Exercice18b\Exercice18b\obj\Debug\net6.0\ref\Exercice18b.dll

@@ -1,0 +1,25 @@
+[class^=col]:nth-child(4n + 1)  {
+  background-color: #f7941e
+}
+
+[class^=col]:nth-child(4n + 2) {
+  background-color: #16becf
+}
+
+[class^=col]:nth-child(4n + 3) {
+  background-color: #92278f
+}
+
+[class^=col]:nth-child(4n) {
+  background-color: #8dc63f
+}
+
+[class^=col] {
+	padding: 30px;
+	border: 2px solid grey;
+	border-radius: 5px;
+}
+
+.row {
+	margin-bottom: 20px;
+}

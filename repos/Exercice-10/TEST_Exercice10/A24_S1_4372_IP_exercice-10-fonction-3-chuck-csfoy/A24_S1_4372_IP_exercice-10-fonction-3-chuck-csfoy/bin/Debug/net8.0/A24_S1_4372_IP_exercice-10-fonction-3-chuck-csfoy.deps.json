@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "A24_S1_4372_IP_exercice-10-fonction-3-chuck-csfoy/1.0.0": {
+        "runtime": {
+          "A24_S1_4372_IP_exercice-10-fonction-3-chuck-csfoy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "A24_S1_4372_IP_exercice-10-fonction-3-chuck-csfoy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

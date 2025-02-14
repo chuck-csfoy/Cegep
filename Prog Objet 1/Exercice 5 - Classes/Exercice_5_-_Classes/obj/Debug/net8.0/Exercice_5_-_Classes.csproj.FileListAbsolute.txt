@@ -1,0 +1,14 @@
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\bin\Debug\net8.0\Exercice_5_-_Classes.exe
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\bin\Debug\net8.0\Exercice_5_-_Classes.deps.json
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\bin\Debug\net8.0\Exercice_5_-_Classes.runtimeconfig.json
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\bin\Debug\net8.0\Exercice_5_-_Classes.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\bin\Debug\net8.0\Exercice_5_-_Classes.pdb
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\obj\Debug\net8.0\Exercice_5_-_Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\obj\Debug\net8.0\Exercice_5_-_Classes.AssemblyInfoInputs.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\obj\Debug\net8.0\Exercice_5_-_Classes.AssemblyInfo.cs
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\obj\Debug\net8.0\Exercice_5_-_Classes.csproj.CoreCompileInputs.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\obj\Debug\net8.0\Exercice_5_-_Classes.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\obj\Debug\net8.0\refint\Exercice_5_-_Classes.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\obj\Debug\net8.0\Exercice_5_-_Classes.pdb
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\obj\Debug\net8.0\Exercice_5_-_Classes.genruntimeconfig.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice_5_-_Classes\Exercice_5_-_Classes\Exercice_5_-_Classes\obj\Debug\net8.0\ref\Exercice_5_-_Classes.dll

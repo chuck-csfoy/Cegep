@@ -1,0 +1,14 @@
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\bin\Debug\net6.0\TP1.exe
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\bin\Debug\net6.0\TP1.deps.json
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\bin\Debug\net6.0\TP1.runtimeconfig.json
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\bin\Debug\net6.0\TP1.dll
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\bin\Debug\net6.0\TP1.pdb
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\obj\Debug\net6.0\TP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\obj\Debug\net6.0\TP1.AssemblyInfoInputs.cache
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\obj\Debug\net6.0\TP1.AssemblyInfo.cs
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\obj\Debug\net6.0\TP1.csproj.CoreCompileInputs.cache
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\obj\Debug\net6.0\TP1.dll
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\obj\Debug\net6.0\refint\TP1.dll
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\obj\Debug\net6.0\TP1.pdb
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\obj\Debug\net6.0\TP1.genruntimeconfig.cache
+C:\Users\chuck\source\repos\TP1_A2024_-2497992\TEST\TP1\obj\Debug\net6.0\ref\TP1.dll

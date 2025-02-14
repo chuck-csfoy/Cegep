@@ -1,0 +1,28 @@
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\bin\Debug\net8.0\Exercice 6.exe
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\bin\Debug\net8.0\Exercice 6.deps.json
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\bin\Debug\net8.0\Exercice 6.runtimeconfig.json
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\bin\Debug\net8.0\Exercice 6.dll
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\bin\Debug\net8.0\Exercice 6.pdb
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\obj\Debug\net8.0\Exercice 6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\obj\Debug\net8.0\Exercice 6.AssemblyInfoInputs.cache
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\obj\Debug\net8.0\Exercice 6.AssemblyInfo.cs
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\obj\Debug\net8.0\Exercice 6.csproj.CoreCompileInputs.cache
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\obj\Debug\net8.0\Exercice 6.dll
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\obj\Debug\net8.0\refint\Exercice 6.dll
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\obj\Debug\net8.0\Exercice 6.pdb
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\obj\Debug\net8.0\Exercice 6.genruntimeconfig.cache
+C:\Users\chuck\source\repos\Exercice 6\Exercice 6\obj\Debug\net8.0\ref\Exercice 6.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\bin\Debug\net8.0\Exercice 6.exe
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\bin\Debug\net8.0\Exercice 6.deps.json
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\bin\Debug\net8.0\Exercice 6.runtimeconfig.json
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\bin\Debug\net8.0\Exercice 6.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\bin\Debug\net8.0\Exercice 6.pdb
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\obj\Debug\net8.0\Exercice 6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\obj\Debug\net8.0\Exercice 6.AssemblyInfoInputs.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\obj\Debug\net8.0\Exercice 6.AssemblyInfo.cs
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\obj\Debug\net8.0\Exercice 6.csproj.CoreCompileInputs.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\obj\Debug\net8.0\Exercice 6.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\obj\Debug\net8.0\refint\Exercice 6.dll
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\obj\Debug\net8.0\Exercice 6.pdb
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\obj\Debug\net8.0\Exercice 6.genruntimeconfig.cache
+C:\Users\chuck\source\Prog Objet 1\Exercice 6 - Classe Voiture\Exercice 6\obj\Debug\net8.0\ref\Exercice 6.dll

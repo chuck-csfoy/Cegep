@@ -1,0 +1,36 @@
+.cheque {
+    position: relative;
+    width: 947px;
+    height: 411px;
+}
+
+.noCheque {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: right;
+    color: blue;
+}
+
+.noCheque::before {
+    content: "No chèque: ";
+    font-weight: normal;
+    font-size: 0.8em;
+    color: black;
+}
+
+.nom {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    color: blue;
+}
+
+.adresse {
+    position: absolute;
+    top: 70px;
+    left: 45px;
+    color: blue;
+}
